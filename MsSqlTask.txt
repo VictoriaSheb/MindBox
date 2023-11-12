@@ -1,0 +1,55 @@
+USE master;
+GO
+
+CREATE DATABASE productsdb
+GO
+
+USE productsdb;
+ 
+CREATE TABLE Products
+(
+    Id INT PRIMARY KEY IDENTITY (0, 1) NOT NULL,
+    Name  VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE Categories
+(
+    Id INT PRIMARY KEY IDENTITY (0, 1) NOT NULL,
+    Name  VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE ProductsCategories
+(
+    Category  INT,
+    Product INT,
+    CONSTRAINT PK_ProductsCategories PRIMARY KEY (Category ASC, Product ASC),
+    CONSTRAINT FK_ProductsCategories_Category FOREIGN KEY (Category) REFERENCES Categories(Id),
+    CONSTRAINT FK_ProductsCategories_Product FOREIGN KEY (Product) REFERENCES Products(Id)
+);
+
+INSERT INTO Products
+VALUES ('iPhone 15'),
+       ('Galaxy A54 5G'),
+       ('Galaxy Buds'),
+       ('batteries Basic D')
+
+
+INSERT INTO Categories
+VALUES ('samsung'),
+	   ('apple'),
+       ('telephone')
+	   
+INSERT INTO ProductsCategories(Product, Category)
+VALUES (0, 1),
+	   (0, 2),
+       (1, 0),
+       (1, 2),
+       (2, 0)
+	   
+	   
+SELECT Products.Name, Categories.Name
+FROM Products 
+	LEFT JOIN ProductsCategories ON Products.Id=ProductsCategories.Product 
+	LEFT JOIN Categories ON Categories.Id=ProductsCategories.Category
+	   
+	   

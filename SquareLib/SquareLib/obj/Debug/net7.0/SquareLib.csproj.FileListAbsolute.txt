@@ -1,0 +1,12 @@
+D:\C#\SquareLib\SquareLib\bin\Debug\net7.0\SquareLib.deps.json
+D:\C#\SquareLib\SquareLib\bin\Debug\net7.0\SquareLib.dll
+D:\C#\SquareLib\SquareLib\bin\Debug\net7.0\SquareLib.pdb
+D:\C#\SquareLib\SquareLib\obj\Debug\net7.0\SquareLib.csproj.AssemblyReference.cache
+D:\C#\SquareLib\SquareLib\obj\Debug\net7.0\SquareLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\SquareLib\SquareLib\obj\Debug\net7.0\SquareLib.AssemblyInfoInputs.cache
+D:\C#\SquareLib\SquareLib\obj\Debug\net7.0\SquareLib.AssemblyInfo.cs
+D:\C#\SquareLib\SquareLib\obj\Debug\net7.0\SquareLib.csproj.CoreCompileInputs.cache
+D:\C#\SquareLib\SquareLib\obj\Debug\net7.0\SquareLib.dll
+D:\C#\SquareLib\SquareLib\obj\Debug\net7.0\refint\SquareLib.dll
+D:\C#\SquareLib\SquareLib\obj\Debug\net7.0\SquareLib.pdb
+D:\C#\SquareLib\SquareLib\obj\Debug\net7.0\ref\SquareLib.dll
